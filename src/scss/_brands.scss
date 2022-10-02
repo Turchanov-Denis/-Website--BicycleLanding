@@ -1,16 +1,20 @@
 .brands {
 
     &__row {
+        max-height: 600px;
     }
 
     &__column {
+        display: flex;
+        flex-direction: column;
+        flex: 0 1 33.333%;
     }
 
     &__item-image {
+        flex: 0 1 66.666%;
     }
 
-    &__link {
-    }
+    
 
     &__article {
     }
@@ -26,17 +30,9 @@
 }
 .item-image {
 
-    &__link {
-    }
-}
-.article {
-
-    &__icon {
+    &__logo {
     }
 
-    &__label {
-    }
-
-    &__text {
+    &__image {
     }
 }
