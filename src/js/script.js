@@ -7,3 +7,15 @@ burger.addEventListener("click", ()=>{
     document.body.classList.toggle("lock");
 
 })
+
+// function ibg() {
+//     document.querySelectorAll(".ibg").forEach(item =>{
+//         const sourceImg = item.getElementsByTagName("IMG")[0];
+//         console.log(sourceImg.src)
+//         item.style.backgroundImage = `url("../img/AboutArticleBike/AboutArticleBike_02.png");`;
+//         console.log(item)
+        
+//     })
+
+// }
+// ibg();
