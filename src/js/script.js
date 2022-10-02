@@ -3,6 +3,7 @@ const burger = document.querySelector(".menu__icon"),
 
 burger.addEventListener("click", ()=>{
     burger.classList.toggle("active");
-    menuBody.classList.toggle("show")
+    menuBody.classList.toggle("show");
+    
 
 })
