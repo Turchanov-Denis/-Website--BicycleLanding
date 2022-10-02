@@ -1,5 +1,5 @@
 .brands {
-
+    &_last{}
     &__row {
         display: flex;
         
@@ -105,6 +105,23 @@ height: 41px;
         }
         &__content {
             padding: 40px 37px 25px 37px;
+        }
+        &_last {
+            
+            .brands__column{
+
+                &:nth-child(1){
+                    order: 2;
+                }
+                &:nth-child(2){
+                    order: 1;
+
+                }
+                &:nth-child(3){
+                    order: 3;
+                }
+                
+            }
         }
     }
 }
