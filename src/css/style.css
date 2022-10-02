@@ -392,6 +392,14 @@ h1, h2, h3, h4, h5, h6 {
 .brands__item-image_4 {
   background-image: url("../img/AboutArticleBike/AboutArticleBike_06.png");
 }
+@media (max-width: 1300px) {
+  .brands__row {
+    flex-direction: column;
+  }
+  .brands__content {
+    padding: 40px 37px 25px 37px;
+  }
+}
 
 .item-image {
   display: block;
@@ -417,4 +425,10 @@ h1, h2, h3, h4, h5, h6 {
 .item-image:hover .item-image__logo {
   visibility: visible;
   opacity: 1;
+}
+@media (max-width: 1300px) {
+  .item-image {
+    height: auto;
+    padding: 0 0 40% 0;
+  }
 }

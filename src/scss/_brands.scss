@@ -99,6 +99,14 @@ height: 41px;
             background-image: url("../img/AboutArticleBike/AboutArticleBike_06.png");
         }
     }
+    @media (max-width: 1300px) {
+        &__row {
+            flex-direction: column;
+        }
+        &__content {
+            padding: 40px 37px 25px 37px;
+        }
+    }
 }
 
 .item-image {
@@ -128,6 +136,10 @@ height: 41px;
             visibility: visible;
               opacity: 1.0;
         }
+    }
+    @media (max-width: 1300px) {
+        height: auto;
+        padding: 0 0 40% 0;
     }
 
 
