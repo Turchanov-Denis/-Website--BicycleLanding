@@ -1,18 +1,23 @@
 
+
+
 html {
     font-family: 'Lato', sans-serif;
     
 }
 
 .wrapper {
-    overflow: hidden;
+    
     min-height: 100%;
+    
+    
 }
 
 .container {
     max-width: 1130px;
     margin: 0 auto;
     padding: 0 15px;
+    overflow: hidden;
 }
 
 .page {
@@ -37,7 +42,7 @@ html {
 }
 
 @import 'https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap';
-@import 'nullstyle.scss';
+@import '_nullstyle.scss';
 @import '_header.scss';
 @import '_article.scss';
 @import '_common.scss';
