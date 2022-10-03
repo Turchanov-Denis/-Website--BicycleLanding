@@ -558,3 +558,11 @@ h1, h2, h3, h4, h5, h6 {
 .block-shop__item-image_l {
   padding-bottom: 100%;
 }
+.subscribe {
+  background-color: #ffffff;
+}
+.subscribe__button {
+  width: 126px;
+  height: 69px;
+  background-color: #64c29e;
+}
