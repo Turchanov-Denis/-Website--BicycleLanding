@@ -3,12 +3,13 @@
     &__body {
         display: flex;
     }
+    
 
     &__column {
             flex: 0 1 16.666%;
-        &_b {
-            flex: 0 1 33.333%;
-        }
+            &_b {
+                flex: 0 1 33.333%;
+            }
     }
 
     &__block {
@@ -19,9 +20,27 @@
 
     &__btn {
     }
+    @media (max-width: 1300px) {
+        &__body {
+            flex-wrap: wrap;
+        }
+        &__column {
+            flex: 0 1 50%;
+            
+            &_b {
+                flex: 0 1 100%;
+                
+            }
+           
+        }
+    }
 }
+
 .block-shop {
     height: 100%;
+    @media (max-width: 1300px) {
+        height: auto;
+    }
     &__row {
         display: flex;
     }
