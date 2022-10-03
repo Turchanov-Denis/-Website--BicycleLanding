@@ -1,0 +1,75 @@
+.shop {
+
+    &__body {
+        display: flex;
+    }
+
+    &__column {
+            flex: 0 1 16.666%;
+        &_b {
+            flex: 0 1 33.333%;
+        }
+    }
+
+    &__block {
+    }
+
+    &__footer {
+    }
+
+    &__btn {
+    }
+}
+.block-shop {
+    height: 100%;
+    &__row {
+        display: flex;
+    }
+
+    &__column {
+        flex: 0 1 50%;
+    }
+
+    &__item-image {
+        padding-bottom: 50%;
+        height: auto;
+        background-image: url("../img/shop/shopImg_04.png");
+        &_1{
+            background-image: url("../img/shop/shopImg_01.png");
+        }
+        &_2{
+            background-image: url("../img/shop/shopImg_02.png");
+        }
+        &_3{
+            background-image: url("../img/shop/shopImg_03.png");
+        }
+        &_4{
+            background-image: url("../img/shop/shopImg_05.png");
+        }
+        &_5{
+            background-image: url("../img/shop/shopImg_06.png");
+        }
+        &_6{
+            background-image: url("../img/shop/shopImg_08.png");
+        }
+        &_7{
+            background-image: url("../img/shop/shopImg_07.png");
+        }
+        &_b {
+            padding: 0 0 200% 0;
+            
+        }
+        &_l {
+            padding-bottom: 100%;
+        }
+    }
+
+    &__title {
+    }
+}
+.item-image {
+
+    &__logo {
+    }
+}
+

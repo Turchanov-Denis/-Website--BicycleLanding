@@ -475,3 +475,54 @@ h1, h2, h3, h4, h5, h6 {
   color: #848789;
   text-align: center;
 }
+
+.shop__body {
+  display: flex;
+}
+.shop__column {
+  flex: 0 1 16.666%;
+}
+.shop__column_b {
+  flex: 0 1 33.333%;
+}
+.block-shop {
+  height: 100%;
+}
+.block-shop__row {
+  display: flex;
+}
+.block-shop__column {
+  flex: 0 1 50%;
+}
+.block-shop__item-image {
+  padding-bottom: 50%;
+  height: auto;
+  background-image: url("../img/shop/shopImg_04.png");
+}
+.block-shop__item-image_1 {
+  background-image: url("../img/shop/shopImg_01.png");
+}
+.block-shop__item-image_2 {
+  background-image: url("../img/shop/shopImg_02.png");
+}
+.block-shop__item-image_3 {
+  background-image: url("../img/shop/shopImg_03.png");
+}
+.block-shop__item-image_4 {
+  background-image: url("../img/shop/shopImg_05.png");
+}
+.block-shop__item-image_5 {
+  background-image: url("../img/shop/shopImg_06.png");
+}
+.block-shop__item-image_6 {
+  background-image: url("../img/shop/shopImg_08.png");
+}
+.block-shop__item-image_7 {
+  background-image: url("../img/shop/shopImg_07.png");
+}
+.block-shop__item-image_b {
+  padding: 0 0 200% 0;
+}
+.block-shop__item-image_l {
+  padding-bottom: 100%;
+}
