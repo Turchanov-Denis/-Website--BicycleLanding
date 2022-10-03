@@ -561,8 +561,65 @@ h1, h2, h3, h4, h5, h6 {
 .subscribe {
   background-color: #ffffff;
 }
+.subscribe__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 109px 0 111px 0;
+}
+.subscribe__icon {
+  display: block;
+  margin-bottom: 39px;
+  width: 94px;
+  height: 85px;
+}
+.subscribe__title {
+  margin-bottom: 35px;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 400;
+  font-style: italic;
+  color: #848789;
+}
+.subscribe__form {
+  display: flex;
+}
+.subscribe__input {
+  width: 400px;
+  height: 69px;
+  background-color: #ffffff;
+  border: 1px solid #d3d7d9;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  font-style: italic;
+  color: #929292;
+  padding: 0 28px;
+  margin-right: 10px;
+}
+.subscribe__input.err {
+  border: 1px solid #f95252;
+}
 .subscribe__button {
   width: 126px;
   height: 69px;
+  padding-top: 22px;
   background-color: #64c29e;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+}
+@media (max-width: 620px) {
+  .subscribe__form {
+    flex-direction: column;
+  }
+  .subscribe__input {
+    margin-right: 0px;
+  }
+  .subscribe__button {
+    margin-top: 20px;
+    width: 100%;
+  }
 }
